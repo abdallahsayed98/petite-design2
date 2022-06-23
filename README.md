@@ -15,12 +15,12 @@ petite-designer2 supports 3 selectors types:
 * *tagSelector* - _<tag>_
 
 
-## setStyle(selector, options)
+## setStyleUsingSelector(selector, options)
 
 ```
-import { setStyle } from 'petite-design';
+import { setStyleUsingSelector } from 'petite-design';
 
-setStyle('.exampleName',{
+setStyleUsingSelector('.exampleName',{
     shadow_type: 'soft',
     padding: true,
     margin: true,
@@ -37,18 +37,18 @@ petite-design2 supports 4 options, both of which are optional:
 * *margin* - _boolean_ (Defaults to false)
 * *backgroundColor* - _coloreName | hex | rgb | rgba_ (Defaults to white )
 
-## addEvent(selector, event, callback)
+## addEventUsingSelector(selector, event, callback)
 ```
-import { addEvent } from 'petite-design';
+import { addEventUsingSelector } from 'petite-design';
 
-addEvent('.exampleName','click',function(){
+addEventUsingSelector('.exampleName','click',function(){
     console.log("log from click event");
 })  
 ```
 
 ### event 
 
-petite-design2 __addEvent()__ supports all __dom__ events :
+petite-design2 __addEventUsingSelector()__ supports all __dom__ events :
 
 * __'click'__
 * __'focus'__
@@ -57,10 +57,10 @@ petite-design2 __addEvent()__ supports all __dom__ events :
 
 ### callback
 
-__addEvent()__ calllback fucntion it's a function that called after event trager
+__addEventUsingSelector()__ calllback fucntion it's a function that called after event trager
 
 
-## hide(selector)
+## hideUsingSelector(selector)
 
-__hide()__ is function that used to hide the element(s)
+__hideUsingSelector()__ is function that used to hide the element(s)
 
