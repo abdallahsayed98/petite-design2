@@ -1,0 +1,25 @@
+{ 
+  "name": "petite-design2",
+  "version": "1.0.0",
+  "description": "Sample JS utilities library",
+  "main": "dist/petite-design2.cjs.js",
+  "module": "dist/petite-design2.esm.js",
+  "browser": "dist/petite-design2.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/spec",
+    "pretest": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "rollup": "^2.75.7",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
