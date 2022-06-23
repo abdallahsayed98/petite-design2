@@ -1,4 +1,4 @@
-{ 
+{
   "name": "petite-design2",
   "version": "1.0.0",
   "description": "Sample JS utilities library",
@@ -21,5 +21,86 @@
   "files": [
     "dist",
     "src"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-plugin-polyfill-corejs2": "^0.3.1",
+    "babel-plugin-polyfill-regenerator": "^0.3.1",
+    "ansi-styles": "^3.2.1",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "babel-plugin-polyfill-corejs3": "^0.5.2",
+    "builtin-modules": "^3.3.0",
+    "call-bind": "^1.0.2",
+    "browserslist": "^4.21.0",
+    "convert-source-map": "^1.8.0",
+    "color-convert": "^1.9.3",
+    "chalk": "^2.4.2",
+    "caniuse-lite": "^1.0.30001358",
+    "debug": "^4.3.4",
+    "color-name": "^1.1.3",
+    "define-properties": "^1.1.4",
+    "core-js-compat": "^3.23.2",
+    "electron-to-chromium": "^1.4.167",
+    "function-bind": "^1.1.1",
+    "escape-string-regexp": "^1.0.5",
+    "escalade": "^3.1.1",
+    "esutils": "^2.0.3",
+    "estree-walker": "^0.6.1",
+    "get-intrinsic": "^1.1.2",
+    "has": "^1.0.3",
+    "has-flag": "^3.0.0",
+    "has-property-descriptors": "^1.0.0",
+    "globals": "^11.12.0",
+    "has-symbols": "^1.0.3",
+    "gensync": "^1.0.0-beta.2",
+    "is-module": "^1.0.0",
+    "is-core-module": "^2.9.0",
+    "jsesc": "^2.5.2",
+    "is-reference": "^1.2.1",
+    "json5": "^2.2.1",
+    "js-tokens": "^4.0.0",
+    "lodash.debounce": "^4.0.8",
+    "ms": "^2.1.2",
+    "node-releases": "^2.0.5",
+    "magic-string": "^0.25.9",
+    "object-keys": "^1.1.1",
+    "object.assign": "^4.1.2",
+    "regenerate": "^1.4.2",
+    "path-parse": "^1.0.7",
+    "picocolors": "^1.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "regenerator-transform": "^0.15.0",
+    "regenerate-unicode-properties": "^10.0.1",
+    "regexpu-core": "^5.0.1",
+    "regjsgen": "^0.6.0",
+    "safe-buffer": "^5.1.2",
+    "regjsparser": "^0.8.4",
+    "resolve": "^1.22.1",
+    "rollup-pluginutils": "^2.8.2",
+    "sourcemap-codec": "^1.4.8",
+    "semver": "^6.3.0",
+    "supports-color": "^5.5.0",
+    "to-fast-properties": "^2.0.0",
+    "supports-preserve-symlinks-flag": "^1.0.0",
+    "unicode-canonical-property-names-ecmascript": "^2.0.0",
+    "unicode-match-property-ecmascript": "^2.0.0",
+    "unicode-match-property-value-ecmascript": "^2.0.0",
+    "update-browserslist-db": "^1.0.3",
+    "unicode-property-aliases-ecmascript": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdallahsayed98/petite-design2.git"
+  },
+  "keywords": [
+    "design"
+  ],
+  "author": "Abdallah Sayed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdallahsayed98/petite-design2/issues"
+  },
+  "homepage": "https://github.com/abdallahsayed98/petite-design2#readme"
 }
