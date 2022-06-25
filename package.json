@@ -1,6 +1,6 @@
 {
   "name": "petite-design2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sample JS utilities library",
   "main": "dist/petite-design2.cjs.js",
   "module": "dist/petite-design2.esm.js",

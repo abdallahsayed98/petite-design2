@@ -83,7 +83,7 @@ The function is used to hide the element(s) from the DOM
 
 ### If you use library as NPM package
 ```
-import { addEventUsingSelector } from 'petite-design2';
+import { hideUsingSelector } from 'petite-design2';
 ```
 ### How to use
 ```
