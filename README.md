@@ -1,10 +1,15 @@
 # What is this?
 
-Get perfect style, adding events and hide elements for the none-designer.
+Get perfect style, adding events and hide elements for the non-designers.
 
 # Installation
 
 `npm i petite-design2 --save`
+
+## or using the CDN
+```
+<script src="https://unpkg.com/petite-design2/src/index.js"></script>
+```
 
 ## Selector
 
@@ -15,11 +20,19 @@ petite-designer2 supports 3 selectors types:
 * *tagSelector* - _<tag>_
 
 
-## setStyleUsingSelector(selector, options)
+## setStyleUsingSelector(selector, options): 
+The function is used to add simple style to the element(s) as:
+* Shodow
+* Margin
+* Padding
+* Background-color
 
+### If you use library as NPM package
 ```
-import { setStyleUsingSelector } from 'petite-design';
-
+import { setStyleUsingSelector } from 'petite-design2';
+```
+### How to use
+```
 setStyleUsingSelector('.exampleName',{
     shadow_type: 'soft',
     padding: true,
@@ -38,9 +51,14 @@ petite-design2 supports 4 options, both of which are optional:
 * *backgroundColor* - _coloreName | hex | rgb | rgba_ (Defaults to white )
 
 ## addEventUsingSelector(selector, event, callback)
-```
-import { addEventUsingSelector } from 'petite-design';
+The function is used to add event element(s) as:
 
+### If you use library as NPM package
+```
+import { addEventUsingSelector } from 'petite-design2';
+```
+### How to use
+```
 addEventUsingSelector('.exampleName','click',function(){
     console.log("log from click event");
 })  
@@ -61,6 +79,15 @@ __addEventUsingSelector()__ calllback fucntion it's a function that called after
 
 
 ## hideUsingSelector(selector)
+The function is used to hide the element(s) from the DOM
 
-__hideUsingSelector()__ is function that used to hide the element(s)
+### If you use library as NPM package
+```
+import { addEventUsingSelector } from 'petite-design2';
+```
+### How to use
+```
+hideUsingSelector(.exampleClass)
+```
+
 
